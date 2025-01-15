@@ -28,7 +28,7 @@ def main():
     model['embeds'][0]['footer'] = {"text": "Epic Games Free Games Alert "+",/65xpp/|/65igppp-888".replace("-",'#').replace("/",' ').replace(",","by").replace("p","s").replace("g","a").replace("o","e").replace("$","p").replace("5","l").replace("6","E")+str(6), 'icon_url' : "https://avatars.githubusercontent.com/u/121466211?s=400&u=e6018d225103ed4be48117d0341d74a212d0b607&v=4"} 
     history_filename = options["history_filename"]
 
-    if discord_webhook_url == "HERE PASTE YOUR WEBHOOK LINK" or discord_webhook_url == "":
+    if discord_webhook_url == "https://discord.com/api/webhooks/1329118437326458920/mLXJtK7eQVetC2yopAPkGk7YHlmYdNsiGRKYIG6-Xpz6yOSRO2RUm98axv7NVAkis1C_" or discord_webhook_url == "":
         print('[!] Please modify the script , add the webhook link , replace the -> "HERE PASTE YOUR WEBHOOK LINK" with your webhook link.')
         quit()
 
